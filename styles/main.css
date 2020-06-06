@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+/* LANDING */
+
+.box-landing{
+    background-image: url(/img/land.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.landing{
+    width: 960px;
+    height: 535px;
+    margin: 0 auto;
+}
+.landing h1{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
+    color: #FFF;
+    padding-top: 35px;
+}
+.landing p{
+    width: 365px;
+    height: 117px;
+    padding-top: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+    font-size: 36px;
+    line-height: 42px;
+    background: rgba(114, 153, 254, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    margin: 290px 0 0 40px;
+}
+/* SOBRE MI */
+.box-sobre-mi{
+    background: #7299FE;
+}
+.sobre-mi{
+    width: 960px;
+    height: 424px;
+    margin: 0 auto;
+}
+.sobre-mi h2{
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    padding-top: 27px;
+    text-align: center;
+}
+.sobre-mi p{
+    width: 872px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    color: #fff;
+    padding-top: 29px;
+    margin: 0 auto;
+}
+.btn-ver{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #fff;
+    padding: 18px 57px;
+    background: #D16FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 20px;
+    margin: 30px 0 0 45px;
+    cursor: pointer;
+}
+.btn-ver:hover{
+    background: rgb(194, 77, 194);
+    margin-left: 50px;
+    transition: ease-in 0.2s;
+}
+/* MIS SKILLS */
+.box-skills{
+    background: #9122FF;
+}
+.skills{
+    width: 960px;
+    height: 424px;
+    margin: 0 auto;
+}
+.skills h2{
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    padding-top: 31px;
+    display: block;
+    margin-bottom: 35px;
+}
+.list-skills{
+    width: 838px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 5px;
+    margin: 0 auto;
+}
+.list-skills li{
+    width: 403px;
+    list-style: none;
+    margin-bottom: 25px;
+}
+.list-skills li p{
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+.bar{
+    background: #fff;
+    display: block;
+    height: 21px;
+    border: none;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 21px;
+    float: left;
+    border-radius: 32px;
+    background: #2187e7;
+}
+.html, .css, .javascript, .vue, .flexbox, .wordpress{
+    width: 80%;
+}
+
+/* PORTAFOLIO */
+.box-portafolio{
+    background: #FFD233;
+}
+.portafolio{
+    width: 960px;
+    height: 424px;
+    margin: 0 auto;
+}
+.portafolio h2{
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    padding-top: 42px;
+    margin-bottom:47px ;
+}
+.portafolio figure{
+    width: 593px;
+    height: 198px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+/* CLIENTES */
+.box-clientes{
+    background: #3F4E62;
+}
+.clientes{
+    width: 960px;
+    height: 258px;
+    margin: 0 auto;
+}
+.clientes h2{
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    padding-top: 36px;
+    margin-bottom: 15px;  
+}
+.clientes figure{
+    width: 851px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CONTACTO */
+.box-contacto{
+    background: #1687A0;
+}
+.contacto{
+    width: 759px;
+    height: 578px;
+    margin:0 auto;
+    text-align: center;
+}
+.contacto h2{
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    padding-top: 34px;
+    margin-bottom: 27px;
+}
+.contacto form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 33px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+textarea{
+    width:100%;
+    box-sizing: border-box;
+    padding: 10px;
+    grid-column: span 2;
+    font-style: normal;
+}
+.contacto .btn-send{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    padding: 18px 50px;
+    background: #233451;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 70px;
+    margin:0 auto;
+    background: rgb(19, 19, 19);
+}
+footer p{
+    color: #fFF;
+    text-align: center;
+    padding-top: 25px;
+}
+footer p a{
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* BREACKPOINTS */
+@media (max-width: 700px){
+    .sobre-mi{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .sobre-mi p{
+        width: 90%;
+    }
+
+    /* CONTACTO */
+    .contacto{
+        width: 90%;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .contacto form{
+        padding: 10px 0;
+        display: block;
+    }
+    .contacto input{
+        
+    }
+    .clientes figure{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* PORTAFOLIO */
+    .box-portafolio{
+        height: 100%;
+    }
+    .portafolio{
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .portafolio figure{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+    .portafolio figure img{
+        width: 50%;
+    }
+}
