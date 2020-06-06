@@ -120,12 +120,12 @@
     grid-row-gap: 5px;
     margin: 0 auto;
 }
-.list-skills li{
+.list-skills ul{
     width: 403px;
     list-style: none;
     margin-bottom: 25px;
 }
-.list-skills li p{
+.list-skills ul p{
     letter-spacing: 1px;
     margin-bottom: 14px;
 }
@@ -239,18 +239,21 @@ textarea{
     grid-column: span 2;
     font-style: normal;
 }
-.contacto .btn-send{
+form .btn-send{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
     color: #fff;
-    padding: 18px 50px;
+    width: 167px;
+    height: 56px;
     background: #233451;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
     margin-top: 45px;
     cursor: pointer;
+    grid-column: span 2;
+    margin:0 auto;
 }
 
 /* FOOTER */
@@ -291,9 +294,6 @@ footer p a{
     .contacto form{
         padding: 10px 0;
         display: block;
-    }
-    .contacto input{
-        
     }
     .clientes figure{
         width: 100%;
