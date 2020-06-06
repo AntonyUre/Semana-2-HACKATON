@@ -1,2 +1,2 @@
 # HACKATON S-2
-se culmino co exito la pagina y se esta dearrollando la version responsive
+se culmino con éxito la página y se esta dearrollando la versión responsive
