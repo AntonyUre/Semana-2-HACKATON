@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method="GET" action="#">
+        <h1>FORMULARIO</h1>
+
+
+        <label for="name">Nombre</label>
+        <input name="name" id="name" type="text" placeholder="Nombre" required>
+
+        <br>
+        <br>
+
+        <label for="lastname">Apellido</label>
+        <input name="lastname" id="lastname" type="text" placeholder="Apellido" required>
+        
+        <br>
+        <br>
+
+        <label for="age">Edad</label>
+        <input name="age" id="age" type="number" placeholder="Edad" required>
+
+        <br>
+        <br>
+
+        <label for="nationality">Nacionalidad</label>
+        <select name="nationality" id="nationality" required>
+            <option value="">Seleciona tu País</option>
+            <option value="1">Perú</option>
+            <option value="2">Bolivia</option>
+            <option value="3">Ecuador</option>
+        </select>
+
+        
+        <br>
+        <br>
+
+        <label for="district" id="district" multiple>Distrito</label>
+        <select name="district" id="district" required>
+            <option value="">Seleciona tu distrito</option>
+            <option value="1">San isidro</option>
+            <option value="2">Chosica</option>
+            <option value="3">Miraflores</option>
+        </select>
+        
+        <br>
+        <br>
+
+        <label for="celphone">Numero de Celular</label>
+        <input name="celphone" id="celphone" type="tel" placeholder="Celular" required>
+
+        <br>
+        <br>
+        
+        <label for="email">Correo</label>
+        <input name="email" id="email" type="email" placeholder="Correo" required>
+
+        <br>
+        <br>
+
+        <label for="sex">Sexo</label>
+        <label>
+            <input name="sex" id="sex" type="radio" required>
+            M
+        </label>
+        <label>
+            <input name="sex" id="sex" type="radio" required>
+            F
+        </label>
+
+        <br>
+        <br>
+        
+        <label for="artist" id="artist" multiple></label>
+        <select name="artist" id="artist" required>
+            <option value="">Artista favorito</option>
+            <option value="1">Artista1</option>
+            <option value="2">Artista2</option>
+            <option value="3">artista3</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label>Tienes mascotas?</label>
+        <label>
+            <input name="pets" id="pets" type="radio" required>
+            si
+        </label>
+        <label>
+            <input name="pets" id="pets" type="radio" required>
+            no
+        </label>
+
+        <br>
+        <br>
+
+        <label for="comments">Deja tus comentarios</label>
+        <textarea name="comments" id="comments" cols="30" rows="10" required placeholder="Aquí deja tus comentarios"></textarea>
+
+        <br>
+        <br>
+        <button>Enviar</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
